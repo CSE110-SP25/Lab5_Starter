@@ -41,10 +41,6 @@ function init() {
       utterance.onend = () => {
         faceImage.src = 'assets/images/smiling.png';
       };
-      utterance.onerror = (event) => {
-        console.error('SpeechSynthesis error:', event);
-        faceImage.src = 'assets/images/smiling.png';
-      };
       synth.speak(utterance);
     }
   });
