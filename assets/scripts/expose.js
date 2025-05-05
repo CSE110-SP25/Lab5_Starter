@@ -29,7 +29,6 @@ function init() {
       volumeIcon.alt = 'Volume level 3';
     }
   });
-
   hornSelect.addEventListener('change', function() {
     const hornValue = hornSelect.value;
     hornImage.src = `assets/images/${hornValue}.svg`;
