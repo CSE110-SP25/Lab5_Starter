@@ -12,9 +12,6 @@ function init() {
 
   function populateVoiceList() {
     voices = synth.getVoices();
-    while (voiceSelect.options.length > 1) {
-      voiceSelect.remove(1);
-    }
     voices.forEach(voice => {
       const option = document.createElement('option');
       option.textContent = `${voice.name} (${voice.lang})`;
@@ -39,6 +36,10 @@ function init() {
         faceImage.src = 'assets/images/smiling-open.png';
       };
       utterance.onend = () => {
+        faceImage.src = 'assets/images/smiling.png';
+      };
+      utterance.onerror = (event) => {
+        console.error('SpeechSynthesis error:', event);
         faceImage.src = 'assets/images/smiling.png';
       };
       synth.speak(utterance);
