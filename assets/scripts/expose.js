@@ -19,21 +19,15 @@ function init() {
 
   volumeSlider.addEventListener('input', () => {
     const vol = parseInt(volumeSlider.value, 10); // 0–100
-    audio.volume = vol / 100;                     // set 0.0–1.0
-  
+    // map 0–100 to 0.0–1.0
+    audio.volume = vol / 100;
+
+    // pick correct icon
     let level;
-    if (vol === 0)           level = 0;
-    else if (vol <= 10)      level = 1;
-    else if (vol <= 20)      level = 2;
-    else if (vol <= 30)      level = 3;
-    else if (vol <= 40)      level = 4;
-    else if (vol <= 50)      level = 5;
-    else if (vol <= 60)      level = 6;
-    else if (vol <= 70)      level = 7;
-    else if (vol <= 80)      level = 8;
-    else if (vol <= 90)      level = 9;
-    else /* vol > 90 */      level = 10;
-  
+    if (vol === 0)         level = 0;
+    else if (vol < 33)     level = 1;
+    else if (vol < 67)     level = 2;
+    else                   level = 3;
     volumeIcon.src = `assets/icons/volume-level-${level}.svg`;
     volumeIcon.alt = `Volume level ${level}`;
   });
