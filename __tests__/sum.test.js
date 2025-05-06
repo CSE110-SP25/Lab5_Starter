@@ -1,7 +1,6 @@
 // sum.test.js
 
-
 test('adds 1 + 2 to equal 3', () => {
-  expect(1 + 2).toBe(4); // <-- WRONG on purpose!
+  expect(1 + 2).toBe(4); // ❌ wrong on purpose
 });
 
