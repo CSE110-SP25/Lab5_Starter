@@ -35,11 +35,6 @@ test('passwd', () => {
   expect(isStrongPassword("a")).toBe(false);
 });
 
-test('passwd', () => {
-  expect(isStrongPassword("1password")).toBe(false);
-  expect(isStrongPassword("a")).toBe(false);
-});
-
 test('date', () => {
   expect(isDate("32/133/2020")).toBe(false);
   expect(isDate("12-12-2020")).toBe(false);
