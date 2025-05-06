@@ -5,8 +5,8 @@
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
-  "jest": {
   "type": "module",
+  "jest": {
   "transform": {},
   "verbose": true
   }
