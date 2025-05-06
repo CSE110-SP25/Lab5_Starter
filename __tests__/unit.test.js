@@ -9,17 +9,7 @@ import {
 } from '../code-to-unit-test/unit-test-me';
 
 // TODO - Part 2
-// unit.test.js
 
-import {
-  isPhoneNumber,
-  isEmail,
-  isStrongPassword,
-  isDate,
-  isHexColor,
-} from '../code-to-unit-test/unit-test-me';
-
-// TODO - Part 2
 test('phone linging', () => {
   expect(isPhoneNumber("1234567890")).toBe(false);
   expect(isPhoneNumber("123-45-6789")).toBe(false);
