@@ -1,0 +1,29 @@
+{
+  "name": "lab5_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riasinghania/Lab5_Starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riasinghania/Lab5_Starter/issues"
+  },
+  "homepage": "https://github.com/riasinghania/Lab5_Starter#readme",
+  "type": "module",
+  "jest": {
+    "transform": {},
+    "verbose": true
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
+
