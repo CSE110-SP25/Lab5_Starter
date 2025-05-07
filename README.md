@@ -1,2 +1,2 @@
 # Lab 5 - Starter
-Make sure you make a PR to your own repo's main and not the class' repo!! Otherwise you will lose points!!**Authors:** Edison Zhang
+**Authors:** Edison Zhang
