@@ -1,2 +1,11 @@
 # Lab 5 - Starter
-Make sure you make a PR to your own repo's main and not the class' repo!! Otherwise you will lose points!!
+
+# Lab 5 - CSE110
+
+## 👥 Students:
+- Samson Gebrekidan (Samat4E)
+- No lab partner
+
+## 🌐 GitHub Pages Links:
+- [Explore Page](https://samat4e.github.io/Lab5_Starter/explore.html)
+- [Expose Page](https://samat4e.github.io/Lab5_Starter/expose.html)
