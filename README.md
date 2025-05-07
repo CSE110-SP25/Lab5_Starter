@@ -1,2 +1,7 @@
 # Lab 5 - Starter
-Make sure you make a PR to your own repo's main and not the class' repo!! Otherwise you will lose points!!
+
+Ruyi Wu
+# [Party Horn](./expose.html)
+# [Explore](./explore.html)
+1. I would not use it for "message" feature, because it will involve multiple components, and need to verify message flow
+2. I would use it for "message" length, becuase it just single function, and fast execution.
