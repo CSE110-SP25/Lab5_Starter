@@ -1,2 +1,10 @@
 # Lab 5 - Starter
-Make sure you make a PR to your own repo's main and not the class' repo!! Otherwise you will lose points!!
+
+
+## 👥 Students:
+- Samson Gebrekidan (Samat4E)
+- No lab partner
+
+## 🌐 GitHub Pages Links:
+- [Explore Page](http://127.0.0.1:5500/explore.html)
+- [Expose Page](http://127.0.0.1:5500/expose.html)
