@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', init);
 
 const jSConfetti = new JSConfetti();
 
-
+ 
 function init() {
   // TODO
 
