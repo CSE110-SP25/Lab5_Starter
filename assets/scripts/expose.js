@@ -10,6 +10,8 @@ function init() {
   const slider = document.getElementById("volume");
   const soundicon = document.querySelector("#volume-controls img");
 
+  const jsConfetti = new JSConfetti();
+
   select.addEventListener("change", (event) => {
     imgspace.src = `assets/images/${event.target.value}.svg`;
     imgspace.alt = `image of ${event.target.value}`;
@@ -32,6 +34,12 @@ function init() {
   play.addEventListener("click", () => {
     if (sound.src){
       sound.play();
+    }
+    if (select.value === 'party-horn') {
+      jsConfetti.addConfetti({
+        emojis: ['🎉', '🥳', '🎈', '✨', '💫'],
+        confettiRadius: 10,
+      });
     }
   });
 }
