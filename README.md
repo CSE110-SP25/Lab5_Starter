@@ -1,8 +1,8 @@
 # Lab 5 - Starter
 Make sure you make a PR to your own repo's main and not the class' repo!! Otherwise you will lose points!!
 
-[Here]() is the GitHub page for expose.html. 
-[Here]() is the GitHub page for explore.html. 
+[Here](https://b2bomber2.github.io/Lab5_Starter/expose.html) is the GitHub page for expose.html. 
+[Here](https://b2bomber2.github.io/Lab5_Starter/explore.html) is the GitHub page for explore.html. 
 
 Ferrari Guan
 
