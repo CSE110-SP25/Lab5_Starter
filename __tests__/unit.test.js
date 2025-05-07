@@ -9,3 +9,7 @@ import {
 } from '../code-to-unit-test/unit-test-me';
 
 // TODO - Part 2
+test('basic test works', () => {
+  expect(true).toBe(true);
+});
+
